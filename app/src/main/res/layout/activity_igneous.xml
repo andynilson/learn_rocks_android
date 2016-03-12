@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andynilson.learnaboutrocks.IgneousActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Igneous Rock"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="Igneous rock (derived from the Latin word ignis meaning fire)is one of the three main rock types. Igneous rock is formed through the cooling and solidification of magma or lava" />
+
+
+        <!-- ********************* -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/obsidian_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/obsidian" />
+
+
+                <TextView
+                    android:id="@+id/obsidian_image_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/obsidian_image"
+                    android:layout_alignLeft="@id/obsidian_image"
+                    android:layout_alignRight="@id/obsidian_image"
+                    android:layout_alignTop="@id/obsidian_image"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="Obsidian"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="A hard, dark, glasslike volcanic rock formed by the rapid solidification of lava without crystallization." />
+        </LinearLayout>
+        <!-- ********************* -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/granite_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/granite" />
+
+
+            <TextView
+                android:id="@+id/granite_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/granite_image"
+                android:layout_alignLeft="@id/granite_image"
+                android:layout_alignRight="@id/granite_image"
+                android:layout_alignTop="@id/granite_image"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Granite"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="A very hard, granular, crystalline, igneous rock consisting mainly of quartz, mica, and feldspar and often used as a building stone." />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/pumice_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pumice" />
+
+
+            <TextView
+                android:id="@+id/pumice_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/pumice_image"
+                android:layout_alignLeft="@+id/pumice_image"
+                android:layout_alignRight="@+id/pumice_image"
+                android:layout_alignTop="@+id/pumice_image"
+                android:gravity="center"
+                android:text="Pumice"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="32dp"
+            android:text="A very light and porous volcanic rock formed when a gas-rich froth of glassy lava solidifies rapidly." />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/basalt_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/basalt" />
+
+
+            <TextView
+                android:id="@+id/basalt_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/basalt_image"
+                android:layout_alignLeft="@id/basalt_image"
+                android:layout_alignRight="@id/basalt_image"
+                android:layout_alignTop="@id/basalt_image"
+                android:gravity="center"
+                android:text="Basalt"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A dark, fine-grained volcanic rock that sometimes displays a columnar structure. It is typically composed largely of plagioclase with pyroxene and olivine." />
+
+
+    </LinearLayout>
+</ScrollView>

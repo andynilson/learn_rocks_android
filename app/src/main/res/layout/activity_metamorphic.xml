@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andynilson.learnaboutrocks.IgneousActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Sedimentary Rock"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:text="Metamorphic rocks arise from the transformation of existing rock types, in a process called metamorphism, which means &quot;change in form&quot;." />
+
+
+        <!-- ********************* -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gneiss_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gneiss" />
+
+
+                <TextView
+                    android:id="@+id/gneiss_image_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/gneiss_image"
+                    android:layout_alignLeft="@id/gneiss_image"
+                    android:layout_alignRight="@id/gneiss_image"
+                    android:layout_alignTop="@id/gneiss_image"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:text="Gneiss"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:text="A high grade metamorphic rock, meaning that it has been subjected to higher temperatures and pressures than schist." />
+        </LinearLayout>
+        <!-- ********************* -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/slate_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/slate" />
+
+
+            <TextView
+                android:id="@+id/slate_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/slate_image"
+                android:layout_alignLeft="@id/slate_image"
+                android:layout_alignRight="@id/slate_image"
+                android:layout_alignTop="@id/slate_image"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="Slate"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="A fine-grained, foliated, homogeneous metamorphic rock derived from an original shale-type sedimentary rock composed of clay or volcanic ash through low-grade regional metamorphism." />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/greenstone_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/greenstone" />
+
+
+            <TextView
+                android:id="@+id/greenstone_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/greenstone_image"
+                android:layout_alignLeft="@+id/greenstone_image"
+                android:layout_alignRight="@+id/greenstone_image"
+                android:layout_alignTop="@+id/greenstone_image"
+                android:gravity="center"
+                android:text="Greenstone"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="32dp"
+            android:text="A tough, dark altered basaltic rock that once was solid deep-sea lava. It belongs to the greenschist regional metamorphic facies." />
+
+
+        <!--
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/basalt_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/basalt" />
+
+
+            <TextView
+                android:id="@+id/basalt_image_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/basalt_image"
+                android:layout_alignLeft="@id/basalt_image"
+                android:layout_alignRight="@id/basalt_image"
+                android:layout_alignTop="@id/basalt_image"
+                android:gravity="center"
+                android:text="Basalt"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A dark, fine-grained volcanic rock that sometimes displays a columnar structure. It is typically composed largely of plagioclase with pyroxene and olivine.
+        " />
+
+        -->
+
+
+    </LinearLayout>
+</ScrollView>
